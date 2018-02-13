@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Valentine\'s App</string>
+    <string name="continue_to_candies">Continue to Candies</string>
+    <string name="hello_valentine">Hello Valentine!</string>
+    <string name="click_the_heart_for_some_candies">Click the heart for some candies</string>
+    <string name="will_you_be_my_valentine">Will you be my Valentine?</string>
+</resources>
