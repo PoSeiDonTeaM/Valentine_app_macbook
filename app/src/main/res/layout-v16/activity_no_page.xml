@@ -42,8 +42,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="29dp"
         android:fontFamily="monospace"
-        android:text="WRONG ANSWER!"
-        android:textSize="30dp"
+        android:text="@string/wrong_answer"
+        android:textSize="30sp"
         android:textStyle="bold" />
 
     <TextView
@@ -68,7 +68,7 @@
         android:layout_alignStart="@+id/textView8"
         android:layout_below="@+id/textView8"
         android:layout_marginTop="40dp"
-        android:text="Electrical Engineer"
+        android:text="@string/electrical_engineer"
         android:fontFamily="monospace"/>
 
     <CheckBox
@@ -103,7 +103,7 @@
         android:layout_alignRight="@+id/checkBox6"
         android:layout_alignStart="@+id/checkBox6"
         android:layout_marginBottom="18dp"
-        android:text="If you changed your mind to yes click here--->" />
+        android:text="@string/if_you_changed_your_mind_to_yes_click_here" />
 
     <Button
         android:id="@+id/button2"
@@ -113,8 +113,8 @@
         android:layout_above="@+id/imageButton4"
         android:layout_toEndOf="@+id/textView8"
         android:layout_toRightOf="@+id/textView8"
-        android:text="YES"
-        android:textSize="30dp"
+        android:text="@string/yes"
+        android:textSize="30sp"
         android:layout_marginBottom="7dp"/>
 
 </RelativeLayout>

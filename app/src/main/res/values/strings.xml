@@ -4,4 +4,10 @@
     <string name="hello_valentine">Hello Valentine!</string>
     <string name="click_the_heart_for_some_candies">Click the heart for some candies</string>
     <string name="will_you_be_my_valentine">Will you be my Valentine?</string>
+    <string name="reasons_to_3_me"><![CDATA[Reasons to <3 me:]]></string>
+    <string name="seriously_what_s_not_to_love">Seriously... what\'s NOT to love?</string>
+    <string name="electrical_engineer">Electrical Engineer</string>
+    <string name="wrong_answer">WRONG ANSWER!</string>
+    <string name="if_you_changed_your_mind_to_yes_click_here"><![CDATA[If you changed your mind to yes click here--->]]></string>
+    <string name="yes">YES</string>
 </resources>

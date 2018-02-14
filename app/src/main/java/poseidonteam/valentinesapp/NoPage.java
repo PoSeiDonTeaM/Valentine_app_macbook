@@ -27,7 +27,7 @@ public class NoPage extends AppCompatActivity {
 
 
     public void openSecondStep() {
-        Intent intent = new Intent(this, Step2.class);
+        Intent intent = new Intent(this, YesPage.class);
         startActivity(intent);
     }
 
