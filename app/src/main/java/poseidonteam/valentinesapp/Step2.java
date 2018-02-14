@@ -5,10 +5,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class Step2 extends AppCompatActivity {
 
     private Button button, button2;
+    private ImageButton button3;
 
 
     @Override
@@ -18,6 +20,7 @@ public class Step2 extends AppCompatActivity {
 
         button = (Button) findViewById(R.id.button);
         button2 = (Button) findViewById(R.id.button2);
+        button3 = (ImageButton) findViewById(R.id.imageButton4);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,6 +35,7 @@ public class Step2 extends AppCompatActivity {
             }
         });
 
+
     }
 
     public void openYesPage() {
@@ -44,5 +48,9 @@ public class Step2 extends AppCompatActivity {
         Intent intent = new Intent(this, NoPage.class);
         startActivity(intent);
 
+    }
+
+    public void openHomePage(View view){
+        Intent intent = new Intent(this,Front_Page.class);
     }
 }
