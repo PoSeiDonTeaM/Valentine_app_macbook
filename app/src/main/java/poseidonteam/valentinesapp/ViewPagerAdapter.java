@@ -21,6 +21,8 @@ public class ViewPagerAdapter extends PagerAdapter{
         this.context = context;
     }
 
+    int i;
+
     @SuppressLint("ServiceCast")
 
     @NonNull
