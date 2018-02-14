@@ -15,13 +15,13 @@ public class ViewPagerAdapter extends PagerAdapter{
 
     private Context context;
     private LayoutInflater layoutInflater;
-    private Integer[] images = {R.drawable.image_a,R.drawable.image2,R.drawable.image3,R.drawable.image4,R.drawable.image5,R.drawable.image6};
+    private Integer[] images = {R.drawable.image_a,R.drawable.image2,R.drawable.image3,R.drawable.image4,R.drawable.image5};
 
     public ViewPagerAdapter(Context context) {
         this.context = context;
     }
 
-    int i;
+
 
     @SuppressLint("ServiceCast")
 
